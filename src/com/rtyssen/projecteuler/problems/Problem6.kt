@@ -1,9 +1,6 @@
-// Answer = 25164150
+package com.rtyssen.projecteuler.problems
 
-fun main() {
-    println("Project Euler #6")
-    println(problem6())
-}
+// Answer = 25164150
 
 fun problem6():Int {
 

@@ -1,8 +1,8 @@
-// Correct answer 997651
+package com.rtyssen.projecteuler.problems
 
-fun main() {
-    problem50()
-}
+import com.rtyssen.projecteuler.utils.primeSieveUntil
+
+// Correct answer 997651
 
 fun problem50() {
 

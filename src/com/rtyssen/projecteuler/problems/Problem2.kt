@@ -1,10 +1,8 @@
-fun main() {
-    println("Project Euler #2")
-    println(sumEvenFibonacci(4_000_000))
-}
+package com.rtyssen.projecteuler.problems
 
-fun sumEvenFibonacci(max: Int):Long {
+fun problem2():Long {
 
+    val max = 4_000_000
     var fib1 = 1
     var fib2 = 2
     var sum = 2L

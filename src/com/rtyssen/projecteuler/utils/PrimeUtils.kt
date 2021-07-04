@@ -1,9 +1,6 @@
+package com.rtyssen.projecteuler.utils
+
 import kotlin.math.sqrt
-
-fun main() {
-    println(primeSieveUntil(1000000))
-}
-
 
 fun primeSieveUntil(max: Long): List<Long> {
 
