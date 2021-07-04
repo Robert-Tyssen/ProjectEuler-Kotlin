@@ -17,3 +17,16 @@ fun primeSieveUntil(max: Long): List<Long> {
     }
     return primes
 }
+
+fun getNthPrime(n: Int): Long {
+
+    val primes = linkedSetOf(2L, 3L, 5L, 7L, 11L, 13L)
+    var curr = primes.last()
+
+    while (primes.size < n) {
+        curr += 2
+        if (primes.none { curr % it == 0L }) primes.add(curr)
+    }
+
+    return primes.last()
+}
