@@ -12,8 +12,7 @@ fun main(){
     println("\n********** PROJECT EULER **********\n")
     println("Executing problem # ${problemNumber}")
 
-    //val f = getFunctionForProblem(problemNumber)
-    val f = ::"problem1".name
+    val f = getFunctionForProblem(problemNumber)
     val millis = measureTimeMillis { res = f().toString() }
 
     println("Result = $res")
